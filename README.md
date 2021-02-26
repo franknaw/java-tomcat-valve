@@ -1,5 +1,5 @@
-## A2T Access Log Valve
-The A2T access log valve is a component that extends the Tomcat Valve API and is inserted into the request processing pipeline for the A2T Catalina container.  The component writes HTTP access logs to the A2T MongoDB instance, this then allows access to real-time user request information. (user metrics).  The following outlines the procedures for configuring and deploying.
+## Access Log Valve
+The access Foo log valve is a component that extends the Tomcat Valve API and is inserted into the request processing pipeline for the A2T Catalina container.  The component writes HTTP access logs to the Foo MongoDB instance, this then allows access to real-time user request information. (user metrics).  The following outlines the procedures for configuring and deploying.
 
 1. Add the following to the Tomcat server.xml file (near the bottom of the file)
 > 
